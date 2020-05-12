@@ -63,6 +63,33 @@
             width: 100%;
             max-width: 1200px;
         }
+
+        @media (max-width: 1024px) {
+            header {
+                order: -1;
+            }
+
+            /* section {
+                flex-wrap: wrap;
+            }
+
+            aside {
+                
+                flex-basis: 100%;
+            } */
+
+            section {
+                flex-direction: column;
+            }
+
+            main {
+                flex-grow: 2;
+            }
+
+            aside {
+                flex-grow: 1;
+            }
+        }
     </style>
 </head>
 
